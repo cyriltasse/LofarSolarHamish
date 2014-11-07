@@ -172,7 +172,7 @@ if __name__=="__main__":
     group.add_option('--ms',help='Input MS to draw [no default]',default='')
     group.add_option('--HDF5Table',help='Name of the HDF5 file [no default]',default='')
     group.add_option('--HDF5Mode',help='What to apply from the HDF5 file. "A" for Amplitude, "R" for Rotation, "P" for Phase [default %default]',default='A')
-    group.add_option('--ApplyBeam',help='Apply the beam model [default %default]',default='1')
+    group.add_option('--ApplyBeam',help='Apply the beam model [default %default]',default='0')
     group.add_option('--DtBeam',help='Time insterval [no default]',default='10')
     group.add_option('--InOut',help='Input output comuln [default %default]',default='DATA,CORRECTED_DATA')
     opt.add_option_group(group)
