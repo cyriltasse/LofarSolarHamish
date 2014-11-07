@@ -179,6 +179,8 @@ if __name__=="__main__":
     O, arguments = opt.parse_args()
     InCol,OutCol=O.InOut.split(",")
 
+    Am I 
+
     BeamParms=((O.ApplyBeam=="1"),float(O.DtBeam))
 
     ApplySols(MSName=O.ms,
