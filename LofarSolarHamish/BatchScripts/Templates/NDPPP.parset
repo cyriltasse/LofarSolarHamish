@@ -1,0 +1,20 @@
+# default values
+$STEPS=[preflag,flag1,avg1]
+
+##########################
+
+msin = $MS_IN
+msin.datacolumn = DATA
+
+msout = $MS_OUT
+
+steps = $STEPS
+
+preflag.type=preflagger
+preflag.corrtype=auto
+
+flag1.type=aoflagger
+
+avg1.type = average
+avg1.freqstep = 6
+avg1.timestep = 5 

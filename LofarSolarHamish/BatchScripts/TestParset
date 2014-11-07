@@ -1,0 +1,10 @@
+msin.datacolumn = DATA
+flag1.type = aoflagger
+avg1.timestep = 5
+avg1.freqstep = 6
+steps = ['preflag', 'flag1', 'avg1]']
+msin = lala
+preflag.type = preflagger
+avg1.type = average
+preflag.corrtype = auto
+msout = $MS_OUT
